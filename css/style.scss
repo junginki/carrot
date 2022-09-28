@@ -9,7 +9,7 @@ body{overflow-x:hidden;
   margin: 0 auto;
   width: 1520px;
   @media #{$mobile}{
-    width: 650px;;
+    width: 650px;
   }
   >header{
     position: relative;

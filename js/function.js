@@ -10,7 +10,10 @@ $Download.on('click' , function(evt){
   
 })
 
-
+$('.mnu_box__li').find('.beta_chat').on('click' , function(evt){
+  evt.preventDefault();
+  alert('어플을 설치해주세요')
+})
 
 $('.article_2').find('a').on('click' , function(evt){
   evt.preventDefault();
